@@ -1,35 +1,631 @@
+@media screen and (max-width: 1470px)
+	.container
+		width: 1140px
+
+	.header
+		&__title
+			max-width: 530px
+		&__content
+			.col-lg-7
+				width: 66.66667%
+			.col-lg-5
+				width: 33.33333%
+
+		&__img
+			&:before
+				top: -85px
+				left: 10px
+			img
+				left: -25px
+			
+		&__data
+			z-index: 1
+			position: relative
+			padding-right: 0
+			li
+				padding-right: 15px
+				&:last-of-type
+					width: 42%
+
+
+	.panel
+		.col-lg-3
+			width: 16.66667%
+		.col-lg-3.col
+			width: 33.33333%
+
+	.panel
+		&__logo
+			padding-top: 20px
+			img
+				margin-left: -30px
+		&__nav
+			padding-top: 45px
+
+		&__call
+			padding-top: 42px
+
+	.clients
+		&__list
+			.col-lg-3
+				min-height: 200px
+
+		&__item
+			margin-bottom: 60px
+
+	.video
+		.col-lg-7, .col-lg-5
+			width: 50%
+
+		&__wrap
+			height: 320px
+			margin-top: 130px
+
+	.certificate
+		.col-lg-7, .col-lg-5
+			width: 50%
+
+	.partners
+		padding-bottom: 20px
+
+	.objections
+		&__content
+			width: 870px
+
+	.questions
+		&__title
+			max-width: 955px
+			margin-left: auto
+			margin-right: auto
+			br
+				display: none
+
+	.footer
+		padding-top: 30px
+		padding-bottom: 70px
+		.col-lg-4
+			width: 16.66667%
+		.col-lg-5
+			width: 50%
+		.col-lg-3
+			width: 33.33333%
+		&__nav
+			margin-left: -20px
+			margin-right: -20px
+			li
+
+	.objections
+		&__title
+			margin-bottom: 30px
+
+			
 @media screen and (max-width: 1199px)
-	.case
-		width: 950px
-	
-	.hidden-lg
-		display: block
-	
-	.hidden-md
-		display: none
+	.container
+		width: 970px
+	.header
+		padding-bottom: 25px
+		background-image: linear-gradient(-47deg, #14b6fe 0%, #4163e1 99%, #4163e1 100%)
+		&__title
+			z-index: 1
+			position: relative
+			font-size: 32px
+			line-height: 40px
+			img
+				height: 30px
+				top: 2px
+		&__img
+			display: none
+			margin-bottom: -70px
+			&:before
+				
+			&_hidden
+				display: block
+		&__content
+			.col-lg-7
+				width: 100%
+			.col-lg-5
+				display: none
+				width: 100%
 
+		&__form
+			margin-top: 10px
+	.panel
+		&__logo
+			width: 183px
+			img
+				margin-bottom: -20px
+		&__nav
+			padding-top: 50px
+			ul
+				justify-content: center
+			li
+				margin-left: 10px
+				margin-right: 10px
+				margin-bottom: 5px
+		.col-lg-3
+			width: 16.66667%
+		.col-lg-3.col
+			width: 25%
+		&__call
+			text-align: center
+			justify-content: center
+			padding-top: 38px
 
+		&__btn
+			margin-right: 0
+			margin-bottom: 7px
+			
+	.form
+		&_header
+			.form
+				&__title
+					max-width: 800px
+
+	.introduction
+		padding-bottom: 45px
+		&__title
+			margin-bottom: 35px
+		&__item
+			margin-bottom: 25px
+		&__icon
+			margin-bottom: 15px
+
+		&__data
+			max-width: 100%
+		&__text
+			margin-top: 20px
+
+	.clients
+		margin-top: 0
+		padding-top: 40px
+		padding-bottom: 40px
+		background-image: none
+		background-color: #F0F4FF
+		min-height: 1px
+		&__list
+			.col-lg-3
+				min-height: 140px
+		&__item
+			margin-bottom: 0
+		&__icon
+			margin-bottom: 10px
+		&__
+			
+	.title
+		font-size: 26px
+		&:before
+			margin-bottom: 12px
+
+	.video
+		padding-bottom: 35px
+		&__wrap
+			margin-top: 0
+			margin-bottom: 20px
+		.col-lg-7, .col-lg-5
+			width: 100%
+			max-width: 700px
+			margin-left: auto
+			margin-right: auto
+
+	.certificate
+		margin-top: 0
+		padding-top: 40px
+		padding-bottom: 40px
+		background-image: none
+		background-color: #F0F4FF
+		min-height: 1px
+		.col-lg-7, .col-lg-5
+			float: left
+			width: 50%
+		&__title
+			padding-top: 95px
+
+	.partners
+		padding-top: 45px
+		&__title
+			margin-bottom: 30px
+			
+		&__item
+			height: 110px
 	
+	.objections
+		padding-top: 50px
+		padding-bottom: 45px
+		background-image: none
+		background-color: #f0f3fd
+		min-height: 1px
+		&__item
+			margin-bottom: 30px
+			&:last-of-type
+				margin-bottom: 0
+		
+		&__content
+			width: calc(100% - 20px - 70px)
+	
+	.questions
+		margin-top: 0
+		padding-top: 45px
+
+	.footer
+		padding-bottom: 40px
+		.col-lg-5
+			width: 58.33333%
+		.col-lg-3
+			width: 25%
+
+		&__nav
+			ul
+				justify-content: center
+			li
+				margin-left: 10px
+				margin-right: 10px
+
+		&__call
+			padding-top: 1px
 @media screen and (max-width: 992px)
-	.case
+	.panel
+		.col-lg-3
+			width: 20%
+		.col-lg-3.col
+			width: 30%
+		&__nav
+			padding-top: 40px
+	.header
+		&__img
+			margin-bottom: -80px
+
+	.container
 		width: 750px
 
-	.hidden-md
-		display: block		
 	
-	.hidden-sm
-		display: none
-
-
+	.introduction
+		padding-bottom: 35px
+		&__text
+			margin-top: 5px
 	
+	.input_icon .input__wrap
+		padding-right: 20px
+	
+	.certificate
+		&__title
+			padding-top: 50px
+			line-height: 40px
+
+	.footer
+		.col-lg-4, .col-lg-3
+			float: left
+		.col-lg-4
+			width: 35%
+
+		.col-lg-3
+			width: 65%
+
+		&__call
+			padding-top: 6px
+			
+
 @media screen and (max-width: 767px)
-	.case
+	.panel
+		z-index: 10
+		.col-lg-3
+			width: 50%
+		.col-lg-3
+		&__logo
+			padding-top: 10px
+		&__mobile-btn
+			display: block
+			width: 50px
+			height: 50px
+			border-radius: 15px
+			border-bottom: none
+			cursor: pointer
+			&.call
+				padding: 15px
+				box-shadow: 0 7px 18px #33cc66
+				background-image: linear-gradient(-16deg, #1a9c46 0%, #33cc66 100%)
+				margin-right: 10px
+			&.hum
+				padding: 14px
+				box-shadow: 0 7px 18px rgba(204, 127, 51, 0.79)
+				background-image: linear-gradient(-242deg, #ffbf37 0%, #ff8e2a 100%)
+				span
+					display: block
+					width: 100%
+					height: 4px
+					background-color: #fff
+					margin-bottom: 5px
+					border-radius: 10px
+					&:last-of-type
+						margin-bottom: 0
+
+		&__nav
+			z-index: 10
+			position: fixed
+			top: 0
+			left: 0
+			right: 0
+			bottom: 0
+			background-color: rgba(255,255,255,.95)
+			padding-top: 20px
+			transition: .3s
+			transform: translateY(-100%)
+			&_toggle
+				transform: translateY(0%)
+			&-head
+				display: flex
+				justify-content: space-between
+				padding-left: 15px
+				padding-right: 15px
+			&-title
+				font-size: 24px
+				font-weight: 700
+				color: #303858
+				letter-spacing: .25px
+			&-close
+				width: 50px
+				height: 50px
+				border-radius: 15px
+				border: 2px solid #ff902a
+				background-color: #fffaf4
+				cursor: pointer
+				padding: 20px 12px 12px
+				span
+					display: block
+					height: 2px
+					background-color: #ff902a
+					transition: .3s
+					position: relative
+					&:nth-of-type(1)
+						top: 2px
+						transform: rotate(45deg)
+					&:nth-of-type(2)
+						transform: rotate(-45deg)
+			&-body
+				padding-top: 27px
+				ul
+					padding-left: 15px
+					padding-right: 15px
+					li
+						font-size: 26px
+						width: 100%
+						margin-left: 0
+						margin-right: 0
+						text-align: center
+						margin-bottom: 10px
+						&:last-of-type
+							margin-bottom: 0
+					a
+						display: block
+						color: #303858
+		
+		.mobile-btn
+			display: flex
+			align-items: center
+			justify-content: flex-end
+			padding-top: 25px
+
+	.container
 		width: 100%
 
-	.hidden-sm
+	.show-xs
 		display: block
-	
-	.hidden-xs
-		display: none
-	
 
+	.title
+		font-size: 24px
+		line-height: 32px
+		&:before
+			margin-bottom: 15px
+			
+
+	.header
+		&__title
+			font-size: 26px
+			line-height: 36px
+			&:before
+				margin-bottom: 8px
+				box-shadow: none
+				width: 40px
+				height: 3px
+			img
+				height: 23px
+				top: 1px
+
+		&__img
+			height: 370px
+			margin-bottom: -70px
+			&:before
+				width: 638px
+				height: 615px
+				background-size: cover
+				top: -90px
+			img
+				left: -22px
+
+		&__data
+			li
+				width: 50%
+				padding-left: 0
+				padding-right: 0
+				font-size: 12px
+				line-height: 16px
+				margin-bottom: 17px
+				&:nth-of-type(odd)
+					padding-right: 10px
+				&:before
+					position: relative
+					margin-bottom: 9px
+
+			
+	.form
+		&_header
+			padding: 16px 10px 20px
+			.form
+				&__title
+					font-size: 18px
+					line-height: 24px
+				&__text
+					line-height: 24px
+		&_line
+			.form
+				&__wrap
+					margin-left: 0
+					margin-right: 0
+				&__input
+					margin-bottom: 10px
+				&__input, &__btn
+					width: 100%
+					margin-left: 0
+					margin-right: 0
+		&_video
+			padding: 15px 10px
+			.form
+				&__title
+					font-size: 18px
+					line-height: 30px
+					text-align: center
+					margin-bottom: 20px
+				&__desc
+					margin-top: 15px
+				&__input
+					margin-bottom: 10px
+		&_questions
+			padding: 15px 10px
+			.form
+				&__wrap
+					margin-left: 0
+					margin-right: 0
+				&__title, &__text
+					display: block
+
+				&__title
+					font-size: 18px
+					line-height: 24px
+					margin-bottom: 10px
+
+				&__text
+					line-height: 24px
+					margin-bottom: 16px
+					
+	.clients
+		&__title
+			margin-bottom: 25px
+	.certificate
+		.col-lg-5, .col-lg-7
+			width: 100%
+		&__title
+			margin-bottom: 0
+			padding-top: 0
+			font-size: 20px
+			line-height: 30px
+		&__img
+			max-width: 570px
+			margin-bottom: 23px
+			&:before, &:after
+				display: none
+
+	.partners
+		padding-bottom: 25px
+		&__item
+			margin-bottom: 10px
+			height: 85px
+		.row
+			margin-left: -10px
+			margin-right: -10px
+
+		.col-xs-6
+			padding-left: 10px
+			padding-right: 10px
+
+	.objections
+		margin-top: 20px
+		&__list
+			padding: 10px
+		&__item
+			position: relative
+			margin-bottom: 20px
+			&:nth-of-type(odd)
+				.objections
+					&__img
+						left: 0
+
+					&__name
+						padding-top: 9px
+						padding-bottom: 8px
+						padding-left: 50px
+					
+					&__text
+						border-radius: 0 48px 40px 50px
+						padding: 26px 31px
+						br
+							display: none
+			&:nth-of-type(even)
+				.objections
+					&__img
+						right: 0
+					&__name
+						padding-top: 9px
+						padding-bottom: 8px
+						padding-right: 50px
+					&__text
+						border-radius: 25px 0 25px 25px
+						padding: 20px
+		&__img
+			width: 40px
+			height: 40px
+			img
+				width: 20px
+		
+		&__img
+			position: absolute
+			top: 0
+
+		&__content 
+			width: 100%
+			margin-left: 0 !important
+			margin-right: 0 !important
+
+
+	.questions
+		&__title
+			margin-bottom: 20px
+		&__date
+			font-size: 15px
+			margin-bottom: 25px
+			margin-left: -10px
+			margin-right: -10px
+			img
+				width: 26px
+				margin-left: 6px
+				margin-right: 6px
+
+		&__form
+			border-radius: 3px
+
+
+	.footer
+		&__call
+			padding-top: 0
+			text-align: right
+			flex-direction: column
+			justify-content: flex-end
+			align-items: flex-end
+		&__btn
+			order: 1
+			margin-right: 0
+
+		&__phone
+			font-size: 18px
+			
+
+		&__logo
+			max-width: 80px
+			padding-top: 7px
+			
+	.popup
+		&_small
+			padding: 25px 15px
+		&__title
+			margin-bottom: 20px
+			max-width: 360px
+			margin-left: auto
+			margin-right: auto
