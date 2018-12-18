@@ -1,4 +1,6 @@
-@media screen and (max-width: 1470px)
+@media screen and (max-width: 1930px)
+	.main-wrap
+		zoom: .9
 	.container
 		width: 1140px
 
@@ -24,8 +26,15 @@
 			padding-right: 0
 			li
 				padding-right: 15px
-				&:last-of-type
-					width: 42%
+
+		&__form
+			margin-top: 0
+
+		.certificate
+			left: -30px
+			margin-top: 155px
+			box-shadow: 0 5px 50px rgba(152, 163, 192, 0.6)
+
 
 
 	.panel
@@ -58,8 +67,10 @@
 			width: 50%
 
 		&__wrap
-			height: 320px
 			margin-top: 130px
+			iframe
+				height: 320px
+			
 
 	.certificate
 		.col-lg-7, .col-lg-5
@@ -129,6 +140,14 @@
 
 		&__form
 			margin-top: 10px
+
+		.certificate
+			left: 0
+			margin-top: 25px
+			margin-bottom: 50px
+			margin-left: auto
+			margin-right: auto
+			padding-bottom: 0
 	.panel
 		&__logo
 			width: 183px
@@ -242,10 +261,42 @@
 		&__content
 			width: calc(100% - 20px - 70px)
 	
-	.questions
-		margin-top: 0
-		padding-top: 45px
+	.objections
+		margin-bottom: 0
 
+	.questions
+		padding-top: 45px
+		&_mt
+			margin-top: 75px
+
+	.choise
+		padding-top: 40px
+		padding-bottom: 40px
+
+	.sub
+		margin-top: 30px
+		height: auto
+	
+	.comparison
+		&__wrap
+			overflow-x: auto
+			margin-bottom: 50px
+			&_show
+				padding-bottom: 0
+			.table
+				width: 1190px
+		&__btn
+			&-wrap
+				padding-bottom: 70px
+
+	.container-wrapper .table .container-subtitle .empty
+		width: 16.6%
+
+	.container-wrapper .table .container-subtitle .quatas.hide_text
+		// display: none
+	
+	.container-wrapper .table .container-subtitle .quatas div span
+		font-size: 13px
 	.footer
 		padding-bottom: 40px
 		.col-lg-5
@@ -263,6 +314,8 @@
 		&__call
 			padding-top: 1px
 @media screen and (max-width: 992px)
+	.main-wrap
+		zoom: 1
 	.panel
 		.col-lg-3
 			width: 20%
@@ -273,6 +326,11 @@
 	.header
 		&__img
 			margin-bottom: -80px
+			&_certificate
+				width: 100%
+				
+				img
+					
 
 	.container
 		width: 750px
@@ -290,6 +348,32 @@
 		&__title
 			padding-top: 50px
 			line-height: 40px
+
+	.choise
+		&__subtitle
+			font-size: 18px
+		&__text
+			line-height: 20px
+		&__data
+			li
+				padding-left: 28px
+				margin-bottom: 10px
+				line-height: normal
+				&:last-of-type
+					margin-bottom: 0
+	.deadline
+		&__item
+			margin-right: 81px
+			&:after
+				width: 200px
+			&:last-of-type
+				margin-right: 0
+			
+
+	.counter
+		&__title
+			margin-bottom: 15px
+
 
 	.footer
 		.col-lg-4, .col-lg-3
@@ -348,9 +432,9 @@
 			background-color: rgba(255,255,255,.95)
 			padding-top: 20px
 			transition: .3s
-			transform: translateY(-100%)
+			transform: translateX(-100%)
 			&_toggle
-				transform: translateY(0%)
+				transform: translateX(0%)
 			&-head
 				display: flex
 				justify-content: space-between
@@ -440,6 +524,12 @@
 				top: -90px
 			img
 				left: -22px
+			&_certificate
+				height: auto
+				margin-bottom: -85px
+				img
+					margin-bottom: 0
+					
 
 		&__data
 			li
@@ -517,6 +607,8 @@
 			padding-top: 0
 			font-size: 20px
 			line-height: 30px
+			img
+				width: 40px
 		&__img
 			max-width: 570px
 			margin-bottom: 23px
@@ -601,7 +693,73 @@
 		&__form
 			border-radius: 3px
 
+	.choise
+		&__list
+			margin-left: -5px
+			margin-right: -5px
+			width: 720px
+			&-case
+				overflow-x: scroll
 
+		&__col
+			width: calc(33.333% - 10px)
+			margin-left: 5px
+			margin-right: 5px
+		&__item
+			margin-bottom: 10px
+			&_large, &_selected
+				height: 480px
+
+
+	.counter
+		margin-top: 25px
+		&__title
+			font-size: 18px
+			margin-bottom: 10px
+		&__text
+			font-size: 18px
+			margin-right: 14px
+
+	.deadline
+		&__item
+			width: 50%
+			margin-right: 0
+			margin-bottom: 20px
+			&:after
+				left: 50%
+				width: 100%
+			&:first-of-type
+				margin-left: 0
+			&:nth-of-type(even)
+				&:after
+					display: none
+	
+	.sub
+		margin-top: 10px
+
+	.comparison
+		padding-top: 40px
+		&__title
+			margin-bottom: 30px
+		&__wrap
+			&_show
+				margin-bottom: 30px
+
+		&__btn
+			&-wrap
+				margin-bottom: -50px
+	.comparison__wrap .table
+		width: 820px
+
+	.comparison__wrap
+		position: static
+	.container-wrapper .table .container-string .first_column, .container-wrapper .table .container-subtitle .quatas
+		left: 15px
+	.questions
+		position: relative
+		z-index: 101
+		&_mt
+			margin-top: 0
 	.footer
 		&__call
 			padding-top: 0
@@ -629,3 +787,18 @@
 			max-width: 360px
 			margin-left: auto
 			margin-right: auto
+		&__grid
+			padding-left: 0
+		&__col
+			min-height: 1px
+			&:nth-of-type(1)
+				padding-bottom: 10px
+			&:nth-of-type(2)
+				order: 1
+		&__inputs, &__radios
+			padding-right: 0
+
+@media screen and (max-width: 420px)
+	.video
+		iframe
+			height: 280px
